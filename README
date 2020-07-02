@@ -1,0 +1,15 @@
+go install  github.com/mailru/easyjson/easyjson
+https://mholt.github.io/json-to-go/
+
+package example
+
+$ easyjson -all example.go
+# command-line-arguments
+2020/07/02 10:54:52 duplicate symbol main..inittask (types 30 and 30) in main and $WORK/b115/_pkg_.a(_go_.o)
+Bootstrap failed: exit status 2
+
+$ easyjson -all example.go
+
+$ ls
+example.go              example.json            example_easyjson.go
+
